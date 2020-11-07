@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Docker starter");
+  res.send("Node js Docker starter");
 });
 
 const PORT = process.env.PORT || 8080;
